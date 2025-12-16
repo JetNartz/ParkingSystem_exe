@@ -1,0 +1,26 @@
+{
+  "name": "updated-parking-system",
+  "version": "1.0.0",
+  "description": "Parking System Application",
+  "main": "Updated_Parking_System/server.js",
+  "bin": "Updated_Parking_System/server.js",
+  "scripts": {
+    "start": "node Updated_Parking_System/server.js"
+  },
+  "keywords": ["parking", "system", "nodejs"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "sqlite3": "^5.1.7"
+  },
+  "pkg": {
+    "assets": [
+      "Updated_Parking_System/*.html",
+      "Updated_Parking_System/*.css",
+      "Updated_Parking_System/*.js"
+    ],
+    "targets": ["node16-win-x64"]
+  }
+}
